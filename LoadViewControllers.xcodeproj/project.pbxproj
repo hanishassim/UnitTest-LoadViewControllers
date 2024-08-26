@@ -20,6 +20,8 @@
 		CDEACE992C7C1D21000D9CCF /* XIBBasedViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CDEACE982C7C1D21000D9CCF /* XIBBasedViewController.xib */; };
 		CDEACE9A2C7C1D21000D9CCF /* XIBBasedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDEACE972C7C1D21000D9CCF /* XIBBasedViewController.swift */; };
 		CDEACE9C2C7C1DD9000D9CCF /* XIBBasedViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDEACE9B2C7C1DD9000D9CCF /* XIBBasedViewControllerTests.swift */; };
+		CDEACE9E2C7C3269000D9CCF /* CodeBasedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDEACE9D2C7C3269000D9CCF /* CodeBasedViewController.swift */; };
+		CDEACEA02C7C32F4000D9CCF /* CodeBasedViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDEACE9F2C7C32F4000D9CCF /* CodeBasedViewControllerTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +59,8 @@
 		CDEACE972C7C1D21000D9CCF /* XIBBasedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XIBBasedViewController.swift; sourceTree = "<group>"; };
 		CDEACE982C7C1D21000D9CCF /* XIBBasedViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = XIBBasedViewController.xib; sourceTree = "<group>"; };
 		CDEACE9B2C7C1DD9000D9CCF /* XIBBasedViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XIBBasedViewControllerTests.swift; sourceTree = "<group>"; };
+		CDEACE9D2C7C3269000D9CCF /* CodeBasedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeBasedViewController.swift; sourceTree = "<group>"; };
+		CDEACE9F2C7C32F4000D9CCF /* CodeBasedViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeBasedViewControllerTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +121,7 @@
 				CDEACE932C7C1760000D9CCF /* StoryboardBasedViewController.swift */,
 				CDEACE972C7C1D21000D9CCF /* XIBBasedViewController.swift */,
 				CDEACE982C7C1D21000D9CCF /* XIBBasedViewController.xib */,
+				CDEACE9D2C7C3269000D9CCF /* CodeBasedViewController.swift */,
 			);
 			path = LoadViewControllers;
 			sourceTree = "<group>";
@@ -126,6 +131,7 @@
 			children = (
 				CDEACE952C7C18E2000D9CCF /* StoryboardBasedViewControllerTests.swift */,
 				CDEACE9B2C7C1DD9000D9CCF /* XIBBasedViewControllerTests.swift */,
+				CDEACE9F2C7C32F4000D9CCF /* CodeBasedViewControllerTests.swift */,
 			);
 			path = LoadViewControllersTests;
 			sourceTree = "<group>";
@@ -273,6 +279,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CDEACE682C7C14A4000D9CCF /* ViewController.swift in Sources */,
+				CDEACE9E2C7C3269000D9CCF /* CodeBasedViewController.swift in Sources */,
 				CDEACE9A2C7C1D21000D9CCF /* XIBBasedViewController.swift in Sources */,
 				CDEACE942C7C1760000D9CCF /* StoryboardBasedViewController.swift in Sources */,
 				CDEACE642C7C14A4000D9CCF /* AppDelegate.swift in Sources */,
@@ -284,6 +291,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CDEACEA02C7C32F4000D9CCF /* CodeBasedViewControllerTests.swift in Sources */,
 				CDEACE9C2C7C1DD9000D9CCF /* XIBBasedViewControllerTests.swift in Sources */,
 				CDEACE962C7C18E2000D9CCF /* StoryboardBasedViewControllerTests.swift in Sources */,
 			);
